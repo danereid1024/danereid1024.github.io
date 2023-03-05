@@ -73,49 +73,43 @@ a:link {
   }
 
   @media only screen and (max-width: 600px) {
-    #name {
-        font-family: Avenir;
-        font-weight: lighter;
-        font-size: 5em;
-        position: absolute;
-        color: rgb(185, 174, 255);;
-        margin-top: .7em;
-      }
-      #job {
-        font-family: Avenir;
-        font-weight: lighter;
-        position: absolute;
-        color: rgb(210, 182, 249);
-        font-size: 1.5em;
-        top: 12em;
-        margin-left: 8px;
-      }
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+    
+    #job {
+      font-family: Avenir;
+      font-weight: lighter;
+      color: rgb(210, 182, 249);
+      font-size: 1.5em;
+  
+    }
+    .container {
+      display: inline-block;
+      position: relative;
+      background: rgba(0, 0, 0, 0.5);
+      font-size: large;
+      margin-top: 2em;
+    }
+
     #projects {
-        font-family: Avenir;
-        font-weight: lighter;
-        position: relative;
-        color: rgb(210, 182, 249);
-        padding-bottom: 1em;
-        top: 25em;
-        left: 12px;
-      }
-      #socials {
-        font-family: Avenir;
-        font-weight: lighter;
-        position: relative;
-        color: rgb(210, 182, 249);
-        padding-bottom: 1em;
-        top: 25em;
-        left: 12px;
-      }
-      #contact {
-        font-family: Avenir;
-        font-weight: lighter;
-        position: relative;
-        color: rgb(210, 182, 249);
-        top: 25em;
-        left: 12px;
-      }
+      font-family: Avenir;
+      font-weight: lighter;
+      position: relative;
+      color: rgb(210, 182, 249);
+      margin-bottom: 2em;
+    }
+    #socials {
+      font-family: Avenir;
+      font-weight: lighter;
+      position: relative;
+      color: rgb(210, 182, 249);
+      margin-bottom: 2em;
+    }
   }
 
 
