@@ -8,22 +8,27 @@
   #name {
     font-family: Avenir;
     font-weight: lighter;
-    font-size: 6em;
-    position: absolute;
-    color: rgb(185, 174, 255);;
-    margin-top: .7em;
+    font-size: 100px;
+    color: rgb(185, 174, 255);
   }
   #job {
     font-family: Avenir;
     font-weight: lighter;
-    position: absolute;
     color: rgb(210, 182, 249);
     font-size: 1.5em;
-    top: 12em;
-    margin-left: 8px;
+
   }
   .container {
-    display: inline-block;
+    display: inline-flex;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: large;
+    margin-top: 2em;
+  }
+  .title {
+    position: relative;
+    display: block;
+    margin-top: 10em;
   }
 
   #projects {
@@ -31,24 +36,20 @@
     font-weight: lighter;
     position: relative;
     color: rgb(210, 182, 249);
-    top: 25em;
-    left: 12px;
+    margin-right: 5em;
   }
   #socials {
     font-family: Avenir;
     font-weight: lighter;
     position: relative;
     color: rgb(210, 182, 249);
-    top: 19.55em;
-    left: 18em;
+    margin-right: 5em;
   }
   #contact {
     font-family: Avenir;
     font-weight: lighter;
     position: relative;
     color: rgb(202, 153, 255);
-    top: 11.3em;
-    left: 31em;
   }
 
   /* unvisited link */
