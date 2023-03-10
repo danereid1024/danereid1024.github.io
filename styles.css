@@ -5,111 +5,93 @@
     min-width: 100%;
     min-height: 100%;
   }
-  #name {
-    font-family: Avenir;
-    font-weight: lighter;
-    font-size: 100px;
-    color: rgb(185, 174, 255);
-  }
-  #job {
-    font-family: Avenir;
-    font-weight: lighter;
-    color: rgb(210, 182, 249);
-    font-size: 1.5em;
 
+  #container {
+    margin: 10em;
+    font-family: Avenir-Heavy, Arial, Helvetica, 'Times New Roman';
+    
   }
-  .container {
-    display: inline-flex;
+
+  #name {
+    letter-spacing: 3px;
     position: relative;
-    background: rgba(0, 0, 0, 0.5);
-    font-size: large;
-    margin-top: 2em;
+    color: #BAAEFF;
+    font-size: 60px;
   }
-  .title {
+
+  #job {
+    font-size: 27px;
     position: relative;
-    display: block;
-    margin-top: 10em;
+    color: #BAAEFF;
+  }
+
+  #projects-title {
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+    color: white;
+    margin-top: 54.2px;   
   }
 
   #projects {
-    font-family: Avenir;
-    font-weight: lighter;
     position: relative;
-    color: rgb(210, 182, 249);
-    margin-right: 5em;
-  }
-  #socials {
-    font-family: Avenir;
-    font-weight: lighter;
-    position: relative;
-    color: rgb(210, 182, 249);
-    margin-right: 5em;
-  }
-  #contact {
-    font-family: Avenir;
-    font-weight: lighter;
-    position: relative;
-    color: rgb(202, 153, 255);
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;   
   }
 
-  /* unvisited link */
-a:link {
-    color: rgb(250, 250, 250);
+  #socials-title {
+    font-size: 20px;
+    position: relative;
+    color: white;
+    margin-top: 29.8px;   
   }
-  
-  /* visited link */
-  a:visited {
-    color: rgb(250, 250, 250);
+
+  #email {
+    position: relative;
+    color: white;
+    margin-top: 10px;   
   }
-  
-  /* mouse over link */
-  a:hover {
-    color: rgb(250, 250, 250);
+  #socials {
+    position: relative;
+    color: white;
+    margin-top: 55.2px;
+    display: flex;   
   }
-  
-  /* selected link */
-  a:active {
-    color: rgb(250, 250, 250);
+
+  .icon {
+    margin-left: 10.5px;
+  }
+  a {
+    font-size: 16px;
+    color: white;
   }
 
   @media only screen and (max-width: 600px) {
-    #myVideo {
-      position: fixed;
-      right: 0;
-      bottom: 0;
-      min-width: 100%;
-      min-height: 100%;
-    }
-    
-    #job {
-      font-family: Avenir;
-      font-weight: lighter;
-      color: rgb(210, 182, 249);
-      font-size: 1.5em;
-  
-    }
-    .container {
-      display: inline-block;
-      position: relative;
-      background: rgba(0, 0, 0, 0.5);
-      font-size: large;
-      margin-top: 2em;
-    }
+    #container {
+        margin: 5em;
+        text-align: center;
+        font-family: Avenir-Heavy, Arial, Helvetica, 'Times New Roman';
 
-    #projects {
-      font-family: Avenir;
-      font-weight: lighter;
-      position: relative;
-      color: rgb(210, 182, 249);
-      margin-bottom: 2em;
-    }
-    #socials {
-      font-family: Avenir;
-      font-weight: lighter;
-      position: relative;
-      color: rgb(210, 182, 249);
-      margin-bottom: 2em;
-    }
+      }
+      #socials {
+        position: relative;
+        color: white;
+        margin-top: 55.2px;
+        display: inline-flex;   
+      }
   }
+  @media only screen and (max-width: 300px) {
+    #container {
+        margin: 5em;
+        text-align: center;
+        font-family: Avenir-Heavy, Arial, Helvetica, 'Times New Roman';
 
-
+      }
+      #socials {
+        position: relative;
+        color: white;
+        margin-top: 55.2px;
+        display: inline-flex;   
+      }
+    }
