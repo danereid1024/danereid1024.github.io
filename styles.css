@@ -6,10 +6,16 @@
     min-height: 100%;
   }
 
+  #gradient {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
   #container {
     margin: 10em;
-    font-family: Avenir-Heavy, Arial, Helvetica, 'Times New Roman';
-    
   }
 
   #name {
@@ -17,46 +23,58 @@
     position: relative;
     color: #BAAEFF;
     font-size: 60px;
+    font-family: Avenir-Heavy, Arial, Helvetica, 'Times New Roman';
   }
 
   #job {
+    font-family: Avenir-Medium, Arial, Helvetica, 'Times New Roman';
     font-size: 27px;
+    letter-spacing: 2.1px;
     position: relative;
     color: #BAAEFF;
   }
 
   #projects-title {
     font-size: 20px;
+    letter-spacing: 1.5px;
     font-weight: lighter;
     position: relative;
     color: white;
-    margin-top: 54.2px;   
+    margin-top: 54.2px;
+    font-family: Avenir-Heavy, Arial, Helvetica, 'Times New Roman';   
   }
 
   #projects {
     position: relative;
     font-size: 16px;
+    letter-spacing: 1px;
+    font-family: Avenir-Roman, Arial, Helvetica, 'Times New Roman';
     color: white;
     margin-top: 10px;   
   }
 
   #socials-title {
     font-size: 20px;
+    letter-spacing: 1.5px;
     position: relative;
     color: white;
-    margin-top: 29.8px;   
+    margin-top: 29.8px;
+    font-family: Avenir-Heavy, Arial, Helvetica, 'Times New Roman';   
   }
 
   #email {
     position: relative;
     color: white;
-    margin-top: 10px;   
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family: Avenir-Roman, Arial, Helvetica, 'Times New Roman';   
   }
   #socials {
     position: relative;
     color: white;
     margin-top: 55.2px;
     display: flex;   
+    font-family: Avenir-Roman, Arial, Helvetica, 'Times New Roman';
   }
 
   .icon {
