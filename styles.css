@@ -24,7 +24,6 @@
     color: #BAAEFF;
     font-size: 60px;
     font-family: Avenir-Heavy, Arial, Helvetica, 'Times New Roman';
-    white-space: nowrap; 
   }
 
   #job {
@@ -33,7 +32,6 @@
     letter-spacing: 2.1px;
     position: relative;
     color: #BAAEFF;
-    white-space: nowrap; 
   }
 
   #projects-title {
@@ -52,8 +50,7 @@
     letter-spacing: 1px;
     font-family: Avenir-Roman, Arial, Helvetica, 'Times New Roman';
     color: white;
-    margin-top: 10px;
-    
+    margin-top: 10px;   
   }
 
   #socials-title {
@@ -72,7 +69,6 @@
     margin-top: 10px;
     font-family: Avenir-Roman, Arial, Helvetica, 'Times New Roman';   
   }
-
   #socials {
     position: relative;
     color: white;
@@ -84,7 +80,6 @@
   .icon {
     margin-left: 10.5px;
   }
-
   a {
     font-size: 16px;
     color: white;
@@ -103,6 +98,7 @@
         margin-top: 55.2px;
         display: inline-flex;   
       }
+  }
 
   @media only screen and (max-width: 300px) {
     #container {
@@ -116,8 +112,5 @@
         color: white;
         margin-top: 55.2px;
         display: inline-flex;   
-      }
-      .dash {
-        display: none;
       }
     }
