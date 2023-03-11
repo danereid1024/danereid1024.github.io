@@ -53,12 +53,7 @@
     font-family: Avenir-Roman, Arial, Helvetica, 'Times New Roman';
     color: white;
     margin-top: 10px;
-    display: flex;
     
-  }
-
-  .link {
-    white-space: nowrap; 
   }
 
   #socials-title {
@@ -95,11 +90,6 @@
     color: white;
   }
 
-  .dash {
-    margin-left: 8px;
-    margin-right: 8px;
-  }
-
   @media only screen and (max-width: 600px) {
     #container {
         margin: 5em;
@@ -113,15 +103,6 @@
         margin-top: 55.2px;
         display: inline-flex;   
       }
-
-      .link {
-        white-space: normal;
-      }
-
-      .dash {
-        display: none;
-      }
-  }
 
   @media only screen and (max-width: 300px) {
     #container {
